@@ -1,0 +1,24 @@
+/* blog.css */
+#blog-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+/* Add dark mode styles for blog posts */
+body.dark-mode .blog-post {
+    background-color: #ffcdd2; /* Light red background */
+    border-color: #f44336; /* Dark red border */
+    color: #fff; /* White text color */
+}

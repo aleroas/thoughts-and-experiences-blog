@@ -1,0 +1,55 @@
+/* form.css */
+
+/* Apply pink-themed styles to the form */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fce4ec; /* Light pink background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+label {
+    color: #333; /* Dark text color */
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+button {
+    background-color: #ff4081; /* Pink button color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f50057; /* Darker pink on hover */
+}
+
+
